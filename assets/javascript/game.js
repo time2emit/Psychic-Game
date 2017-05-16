@@ -31,7 +31,7 @@ var userGuess
 	if (compChoice !== userGuess) {
 		loses++;
 		guessesLeft--;
-	}
+	};
 
 	if  (compChoice == userGuess) {
 		wins++;
