@@ -27,18 +27,16 @@ var userGuess
         console.log('This is the userGuessArray: ' + userGuessArray)
 
       }
-
 //Increment wins/loses, decrement guessesLeft
-
 	if (compChoice !== userGuess) {
 		loses++;
 		guessesLeft--;
 	}
 
-	else {
+	if  (compChoice == userGuess) {
 		wins++;
 		guessesLeft--;
-	}
-}
+	};
+
 
  
